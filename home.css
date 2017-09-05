@@ -32,11 +32,14 @@
 
 .parallaxtwo {
 	background: url("images/logo_base_test3.png")repeat fixed 100%;
+	background-size: contain !important;
+	height: 800px;
 }
 
 .parallax-innertwo {
 	padding-top: 10%;
 	padding-bottom: 10%;
+	
 }
 
 /*--- PARALLAXTWO STYLING ---*/
@@ -46,11 +49,13 @@
 
 .parallax {
 	background: url("images/base_test2.png")repeat fixed 100%;
+	background-size: contain !important;
 }
 
 .parallax-inner {
 	padding-top: 20%;
 	padding-bottom: 20%;
+	height: 50px;
 }
 /*--- END PARALLAX STYLING ---*/
 
