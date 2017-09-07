@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+/*--- NAVBAR STYLING ---*/
+.nav {
+	
+	opacity: 100%;
+	color: #A2A2A3;
+	list-style: none;
+	text-align: center;
+    float: center;
+    margin-right: 12px;
+	/*padding: 20px 100px 20px 100px;*/
+}
+
+.nav > li {
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 22px;
+}
+
+.nav > li > a {
+	text-decoration: none;
+	color: black;
+
+}
+
+.nav > li > a:hover {
+	color: #1C96D3;
+}
+
+
+
+#company {
+    padding-top: 50px;
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.team {
+    background-color: #EAEAEA;
+    padding-bottom: 200px;
+}
+
+#title {
+    text-align: center;
+}
+
+.teammember {
+    margin-right: 300px;
+    margin-left: 300px;
+    display: inline;
+}
+#profile{
+    float: left;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+#profiletext {
+    margin-left: 750px;
+    margin-top: 100px;
+    max-width: 400px
+}
