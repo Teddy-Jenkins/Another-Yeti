@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+/*--- NAVBAR STYLING ---*/
+.nav {
+	
+	opacity: 100%;
+	color: #A2A2A3;
+	list-style: none;
+	text-align: center;
+    float: center;
+    margin-right: 12px;
+	/*padding: 20px 100px 20px 100px;*/
+}
+
+.nav > li {
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 22px;
+}
+
+.nav > li > a {
+	text-decoration: none;
+	color: black;
+
+}
+
+.nav > li > a:hover {
+	color: #1C96D3;
+}
