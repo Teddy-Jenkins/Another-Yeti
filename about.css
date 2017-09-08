@@ -5,16 +5,15 @@
 	
 	opacity: 100%;
 	color: #A2A2A3;
-	list-style: none;
+	list-style-type: none;
 	text-align: center;
-    float: center;
-    margin-right: 12px;
+	overflow: hidden;
 	/*padding: 20px 100px 20px 100px;*/
 }
 
 .nav > li {
 	display: inline-block;
-	padding-right: 10px;
+	
 	font-size: 22px;
 }
 
@@ -27,6 +26,13 @@
 .nav > li > a:hover {
 	color: #1C96D3;
 }
+
+@media screen and (max-width: 959px){ 
+	.nav {
+		width: 100%;
+    }
+}
+    
 
 
 
