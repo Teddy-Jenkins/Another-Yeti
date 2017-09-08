@@ -35,6 +35,10 @@
 		width: 70%;
 		height: 70%;
 	}
+	p {
+		
+		text-align: center;
+	}
 }
 /*--- END NAVBAR STYLING ---*/
 
@@ -53,37 +57,12 @@ h1 {
 
 p {
 	font-size: 19px;
-	margin-left: 5%;
-	margin-right: 5%;	
+	text-align: center;
+	margin-left: 230px;
+	max-width: 600px;	
 }
 
 h2 { 
 text-align: center;
-<<<<<<< HEAD
 
  }
-=======
- }
-
-/*---SIDE TO SIDE TEXT STYLING---*/
-
-#wrap {
-	width: 1300px;
-}
-
-.left {
-	margin-left: 30px;
-	width: 600px;
-	height: 140px;
-	float: left;
-}
-
-.right {
-	margin-right: 20px;
-	width: 600px;
-	height: 140px;
-	float: right;
-}
-
-/*---END SIDE TO SIDE TEXT STYLING---*/
->>>>>>> 622f1f35857994a8358eb8d47a78364cecdad618
