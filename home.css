@@ -80,3 +80,25 @@ p {
 h2 { 
 text-align: center;
  }
+
+/*---SIDE TO SIDE TEXT STYLING---*/
+
+#wrap {
+	width: 1300px;
+}
+
+.left {
+	margin-left: 30px;
+	width: 600px;
+	height: 140px;
+	float: left;
+}
+
+.right {
+	margin-right: 20px;
+	width: 600px;
+	height: 140px;
+	float: right;
+}
+
+/*---END SIDE TO SIDE TEXT STYLING---*/
