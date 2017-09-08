@@ -59,5 +59,31 @@ p {
 
 h2 { 
 text-align: center;
+<<<<<<< HEAD
 
  }
+=======
+ }
+
+/*---SIDE TO SIDE TEXT STYLING---*/
+
+#wrap {
+	width: 1300px;
+}
+
+.left {
+	margin-left: 30px;
+	width: 600px;
+	height: 140px;
+	float: left;
+}
+
+.right {
+	margin-right: 20px;
+	width: 600px;
+	height: 140px;
+	float: right;
+}
+
+/*---END SIDE TO SIDE TEXT STYLING---*/
+>>>>>>> 622f1f35857994a8358eb8d47a78364cecdad618
