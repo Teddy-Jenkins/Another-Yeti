@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 
+
 /*--- NAVBAR STYLING ---*/
 .nav {
 	
@@ -26,4 +27,29 @@
 
 .nav > li > a:hover {
 	color: #1C96D3;
+}
+
+body {
+	background-color: #8c8c8c;
+}
+
+
+/*--header > img {
+ max-width: 100%;
+  height: auto;
+  width: fit content;
+  margin:auto;
+  display:block;
+}--*/
+
+#wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+.banner-img {
+    width: 100%;
 }
