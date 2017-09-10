@@ -1,64 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title itemprop="name">
-
-        Another Yeti   &#8211;  SUPPORT
-        </title>
+    <title>anotheryeti.com/support</title>
 
 
     <meta charset="utf-8">
     <!--LINK BOOTSTRAP STYLESHEET-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     
     <!--LINK CSS STYLESHEET-->
-    <link rel="stylesheet" type="text/css" href="about.css">
+    <link rel="stylesheet" type="text/css" href="css/support.css">
     <!--END LINK CSS STYLESHEET-->
 
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
     <!-- END LINK BOOTSTRAP STYLESHEET-->
 </head>
 
     <body>
     <!-- NavBar -->
-            <ul class="nav"> 
-                <li> <a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <img id="logo" src="images/anotheryeti-01.png" alt="">
-                <li><a href="support.html">Support</a></li>
-                <li> <a href="">Blog</a></li>
-            </ul>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="background-color: white">
+            
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <a class="navbar-brand" href="#"><img src="images/anotheryeti_logo.png" alt="" width="170px"></a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about_page.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="support.html">Support</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
     <!-- NavBar End -->
-    <style> 
-    background-color: #5b5b5b;
-    </style>
-    <!--<header class="main-header" role="banner">
-  <img src="http://www.anotheryeti.com/wp-content/uploads/2014/09/error-copy.jpg" alt="Banner Image"/>
-</header>
-
-<div id="banner">
-    <div id="wrapper">
-        <div id="container">
-                <a href="http://anotheryeti.com/faq"><img class="banner-img" src="http://www.anotheryeti.com/wp-content/uploads/2014/09/error-copy.jpg" alt="Any Questions?"></a>
-        </div>
-    </div>
-</div>-->
 
 
-<h3>Help! Everything is broken!</h3>
 
-<p>
-First, try restarting the game and Steam (if you’re using steam). If that doesn’t help, send an email to support@anotheryeti.com with a description of what’s going on, and a logfile.
 
-You can find the logfile in these locations:
-Mac – ~/Library/Logs/Unity/Player.log
-Windows – (install directory)\output_log.txt
-Linux – ~/.config/unity3d/AnotherYeti/Metro\ Warp/Player.log
+<div class="faq">
+        
+        <h3 style="color: #1C96D3">Help! Everything is broken!</h3>
 
-where ‘~’ is your home directory on Mac or Linux, and (install directory) is where the game is installed on Windows. For a Steam install, this will be
-C:\Program Files(x86)\Steam\steamapps\common\Metro Warp</p>
+        <p id="faq-paragraph">
+        First, try restarting the game and Steam (if you’re using steam). If that doesn’t help, send an email to support@anotheryeti.com with a description of what’s going on, and a logfile.
+
+        You can find the logfile in these locations: <br> <br>
+        Mac – ~/Library/Logs/Unity/Player.log <br>
+        Windows – (install directory)\output_log.txt <br>
+        Linux – ~/.config/unity3d/AnotherYeti/Metro\ Warp/Player.log <br> <br>
+
+        where ‘~’ is your home directory on Mac or Linux, and (install directory) is where the game is installed on Windows. For a Steam install, this will be
+        C:\Program Files(x86)\Steam\steamapps\common\Metro Warp</p> 
+
+        <h4 style="color: #1C96D3">Questions? Contact us at:</h4>
+        <a href="mailto:support@anotheryeti.com"><h5>support@anotheryeti.com</h5></a>
+</div>
 
     </body>
     </html>

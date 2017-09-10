@@ -1,31 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 
-/*--- NAVBAR STYLING ---*/
-.nav {
-	
-	opacity: 100%;
-	color: #A2A2A3;
-	list-style-type: none;
-	text-align: center;
-	overflow: hidden;
-	/*padding: 20px 100px 20px 100px;*/
-}
-
-.nav > li {
-	display: inline-block;
-	
-	font-size: 22px;
-}
-
-.nav > li > a {
-	text-decoration: none;
-	color: black;
-
-}
-
-.nav > li > a:hover {
-	color: #1C96D3;
-}
 
 
     
@@ -41,7 +15,7 @@
 
 .team {
     background-color: #EAEAEA;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 #title {
@@ -55,21 +29,19 @@
 }
 #profile{
     float: left;
-    margin-left: 400px;
+    margin-left: 200px;
     margin-top: 20px;
 }
 
 #profiletext {
-    margin-left: 750px;
+    margin-left: 550px;
     margin-top: 100px;
     max-width: 400px
 }
 
 @media screen and (max-width: 1025px){ 
-	.nav {
-        width: 100%;
+	.navbar-brand {
         margin: auto;
-        font-size: 30px;
     }
     #company {
         margin: auto;
@@ -80,7 +52,8 @@
     }
     #profiletext {
         margin: auto;
-        margin-top: 2%;
+        margin-top: 0.7%;
+        margin-left: 40%;
         font-size: 26px;
     }
 }

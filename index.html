@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,26 +5,44 @@
     <meta charset="utf-8">
     <!--LINK BOOTSTRAP STYLESHEET-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     
     <!--LINK CSS STYLESHEET-->
-    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
     <!--END LINK CSS STYLESHEET-->
 
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
     <!-- END LINK BOOTSTRAP STYLESHEET-->
 </head>
 
 <body>
     <!-- NavBar -->
-            <ul class="nav"> 
-                <li> <a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <img id="logo" src="images/anotheryeti-01.png" alt="">
-                <li><a href="support.html">Support</a></li>
-                <li> <a href="">Blog</a></li>
-            </ul>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="background-color: white">
+        
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="#"><img src="images/anotheryeti_logo.png" alt="" width="170px"></a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about_page.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="support.html">Support</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
     <!-- NavBar End -->
 
 <h2 id="images"><img src="images/logo_base_test3.png" alt="" width="100%" height="100%"></h2>
