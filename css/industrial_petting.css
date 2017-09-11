@@ -2,8 +2,14 @@
 .page-content {
     background-color: #8B5A49;
 }
+.page-content h2 {
+    text-align: center;
+}
+.downloads{
+    text-align: center;
+}
 #page {
-    background-color: #7C8082;
+    background-color: #DFDFDF;
     max-width: 60%;
     margin: auto;
     
@@ -11,7 +17,25 @@
 }
 #content {
     text-align: left;
-    margin-left: 20%;
+    margin-left: 100px;
+    max-width: 80%;
+    padding-top: 10px;
+}
+#indexpage {
+    vertical-align: middle;
+    margin-top: 50px;
+}
 
-
+@media screen and (max-width: 1025px){
+    .page-content {
+        background-color: #DFDFDF;
+    }
+    #page {
+        max-width: 90%;
+        font-size: 26px;
+    }
+    .carousel-item{
+        width: 100%;
+        background-size: cover;
+    }
 }
