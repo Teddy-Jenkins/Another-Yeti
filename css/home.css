@@ -16,7 +16,9 @@
 }
 }
 /*--- END NAVBAR STYLING ---*/
-
+html {
+	background-color: #C6CFD3;
+}
 
 h1 {
 	text-align: center;

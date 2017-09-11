@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+.page-content {
+    background-color: #8B5A49;
+}
+#page {
+    background-color: #7C8082;
+    max-width: 60%;
+    margin: auto;
+    
+    
+}
+#content {
+    text-align: left;
+    margin-left: 20%;
+
+
+}
