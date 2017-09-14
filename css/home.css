@@ -5,7 +5,7 @@
     position: relative;
 }
 .navbar-brand {
-	-
+	
   }
 
 @media screen and (max-width: 959px){ 
@@ -34,7 +34,7 @@ h1 {
 }
 
 p {
-	font-size: 19px;
+	font-size: 30px;
 	text-align: center;
 	margin: auto;
 	vertical-align: middle;

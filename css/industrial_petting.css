@@ -17,7 +17,7 @@
 }
 #content {
     text-align: left;
-    margin-left: 100px;
+    margin: auto;
     max-width: 80%;
     padding-top: 10px;
 }
@@ -34,8 +34,33 @@
         max-width: 90%;
         font-size: 26px;
     }
-    .carousel-item{
-        width: 100%;
-        background-size: cover;
-    }
+    .carousel img {
+            height:100% !important;
+            width: 100% !important;
+      }
 }
+
+@media screen and (max-width: 414px){
+    
+    .page-content {
+        background-color: #DFDFDF;
+    }
+    #page {
+        padding: 0 0 0 0;
+        font-size: 26px;
+        text-align: left;
+        max-width: 100%;
+    }
+    #content {
+        text-align: left;
+        max-width: 95%;
+        padding-top: 10px;
+    }
+    .carousel img {
+            height:100% !important;
+            width: 100% !important;
+      }
+    #widget {
+        max-width: 100%;
+    }
+    }
