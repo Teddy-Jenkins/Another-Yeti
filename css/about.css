@@ -3,19 +3,20 @@
 
 
     
-
+body {
+    padding-bottom: -50px;
+}
 
 
 #company {
     padding-top: 50px;
     text-align: center;
-    margin-right: 300px;
-    margin-left: 300px;
+    margin: auto;
+    max-width: 60%;
 }
 
 .team {
     background-color: #EAEAEA;
-    padding-bottom: 100px;
 }
 
 #title {
@@ -35,14 +36,22 @@
 
 #profiletext {
     margin-left: 550px;
-    margin-top: 100px;
-    max-width: 400px
+    margin-top: 35px;
+    max-width: 400px;
+    font-size: 27px;
+}
+#copyright {
+	margin-top: 170px;
+    bottom: 0;
+    text-align: center;
+}
+p {
+    font-size: 23px;
 }
 
+
 @media screen and (max-width: 1025px){ 
-	.navbar-brand {
-        margin: auto;
-    }
+	
     #company {
         margin: auto;
         font-size: 20px;
@@ -65,8 +74,12 @@
     }
     #company {
         margin: auto;
-        
+        max-width: 90%;
+        text-align: left;
         padding-bottom: 50%;
+    }
+    #company > h1 {
+        text-align: center;
     }
     #profile {
         width: 100%;

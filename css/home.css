@@ -7,22 +7,17 @@
 .navbar-brand {
 	
   }
-
-@media screen and (max-width: 959px){ 
-	.navbar-brand {
-		margin: auto;
-		vertical-align: middle;
-	}
-}
-}
 /*--- END NAVBAR STYLING ---*/
-html {
-	background-color: #C6CFD3;
-}
 
+body {
+	background: url("../images/background1.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 h1 {
 	text-align: center;
-	background: gray;
 	display: inline;
 	float: center;
 	font-size:  575%;
@@ -38,14 +33,25 @@ p {
 	text-align: center;
 	margin: auto;
 	vertical-align: middle;
-	max-width: 95%;	
+	max-width: 65%;	
 }
-
+#button {
+	text-align: center;
+}
 h2 { 
 text-align: center;
 vertical-align: middle;
 
  }
+ #images {
+	 max-width: 70%;
+	 padding-top: 50px;
+	 padding-bottom: 50px;
+ }
+ #copyright {
+	padding-top: 100px;
+	bottom: 0;
+  }
 
  @media screen and (max-width: 1025px){ 
 	h2 {
@@ -55,9 +61,18 @@ vertical-align: middle;
 	p {
 		font-size: 28px;
 		width: 100%;
-		
-		
-		
+		text-align: left;	
+	}
+	#logo {
+		width: 40%;
+		height: 40%;
+	}
+	#copyright {
+		margin: auto;
+		text-align: center;
+	}
+	#button {
+		text-align: center;
 	}
 }
 
@@ -67,5 +82,10 @@ vertical-align: middle;
 		width: 100%;
 		max-width: 95%;
 		font-size: 20px;
+		text-align: left;
+	}
+	#copyright {
+		margin: auto;
+		text-align: center;
 	}
 }
