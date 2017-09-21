@@ -15,6 +15,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	position: relative;
 }
 h1 {
 	text-align: center;
@@ -48,10 +49,14 @@ vertical-align: middle;
 	 padding-top: 50px;
 	 padding-bottom: 50px;
  }
- #copyright {
-	padding-top: 100px;
-	bottom: 0;
-  }
+ .footer {
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:30px;
+	width:100%;
+	background:#999;
+ }
 
  @media screen and (max-width: 1025px){ 
 	h2 {
