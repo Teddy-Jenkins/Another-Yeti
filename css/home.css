@@ -1,8 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 
+html {
+	height: 100%;
+}
 /*--- NAVBAR STYLING ---*/
 .navbar {
-    position: relative;
+	position: relative;
+	font-size: 22px;
 }
 .navbar-brand {
 	
@@ -24,17 +28,32 @@ h1 {
 	font-size:  575%;
 	color: #4A4444;
 	text-transform: uppercase;
-	letter-spacing: 1%
-	
+	letter-spacing: 1%;
+}
+.container {
+	width: 80%;
+}
+#metro {
+	float: left;
+	width: 650px;
+	height: 320px;
 	
 }
-
+#metro > iframe {
+	margin: auto;
+}
+#industrial {
+	float: right;
+	width: 650px;
+	height: 320px;
+	
+}
 p {
-	font-size: 30px;
-	text-align: center;
+	font-size: 22px;
+	text-align: left;
 	margin: auto;
 	vertical-align: middle;
-	max-width: 65%;	
+	max-width: 75%;	
 }
 #button {
 	text-align: center;
@@ -45,10 +64,11 @@ vertical-align: middle;
 
  }
  #images {
-	 max-width: 70%;
-	 padding-top: 50px;
-	 padding-bottom: 50px;
+	width: 560px; 
+	height: 315px;
+	 
  }
+ 
  .footer {
 	position:fixed;
 	left:0px;
@@ -64,7 +84,7 @@ vertical-align: middle;
 		height: 70%;
 	}
 	p {
-		font-size: 28px;
+		font-size: 22px;
 		width: 100%;
 		text-align: left;	
 	}
