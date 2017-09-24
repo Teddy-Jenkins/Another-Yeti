@@ -6,7 +6,7 @@ html {
 /*--- NAVBAR STYLING ---*/
 .navbar {
 	position: relative;
-	font-size: 22px;
+	font-size: 20px;
 }
 .navbar-brand {
 	
@@ -32,24 +32,26 @@ h1 {
 }
 .container {
 	width: 80%;
+	min-width: 1000px;
+	margin: auto;
 }
 #metro {
 	float: left;
-	width: 650px;
-	height: 320px;
+	width: 50%;
+
 	
 }
 #metro > iframe {
 	margin: auto;
 }
 #industrial {
-	float: right;
-	width: 650px;
-	height: 320px;
+	float: left;
+	width: 50%;
+;
 	
 }
 p {
-	font-size: 22px;
+	font-size: 20px;
 	text-align: left;
 	margin: auto;
 	vertical-align: middle;

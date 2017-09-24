@@ -2,7 +2,7 @@
 
 
 .navbar {
-	font-size: 22px;
+	font-size: 20px;
 }
     
 body {
@@ -15,6 +15,7 @@ body {
     text-align: center;
     margin: auto;
     max-width: 60%;
+    padding-bottom: 20px;
 }
 
 .team {
@@ -24,7 +25,7 @@ body {
 
 #title {
     text-align: center;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 .teammember {
@@ -32,7 +33,7 @@ body {
     height: 410px;
     margin: auto;
     background-color: #EAEAEA;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 #profile{
     float: left;
@@ -46,8 +47,8 @@ body {
     float: right;
     width: 400px;
     height: 350px;
-    font-size: 22px;
-    padding-top: 50px;
+    font-size: 20px;
+    padding-top: 65px;
 }
 #copyright {
 	margin-top: 170px;
@@ -55,7 +56,7 @@ body {
     text-align: center;
 }
 p {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 

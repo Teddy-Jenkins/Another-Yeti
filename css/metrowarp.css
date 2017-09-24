@@ -1,6 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
+html {
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  
+}
+body {
+
+  width: 100%;
+  height: auto;
+}
+* {
+  border: 1px solid red;
+}
 .page-content {
     background-color: #3668EC;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
 }
 .page-content h2 {
     text-align: center;
@@ -9,8 +27,12 @@
     background-color: #DFDFDF;
     max-width: 60%;
     margin: auto;
+    height: auto;
     
-    
+}
+#trailer {
+  text-align: center;
+  padding-top: 25px;
 }
 #content {
     text-align: left;
@@ -25,13 +47,23 @@
 .download {
   padding-bottom: 20px;
   padding-top: 20px;
+  width: 100%;
+  margin: auto;
+  height: 100%;
 }
 #widget {
   float: left;
+  width: 560;
+  height: 327;
   padding-left: 40px;
 }
 #features {
-  margin-left: 600px;
+  float: left;
+  word-wrap: break-word;
+  max-width: 80%;
+  width: 300px;
+  height: 100%;
+  margin-top: 1.7%;
 }
 .footer {
   padding-top: 100px;
