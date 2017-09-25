@@ -4,6 +4,10 @@ body {
     
 }
 
+.navbar {
+    position: relative;
+    font-size: 22px;
+}
 .faq {
 	background-color:  #e6e6e6;
 	text-align: center;
