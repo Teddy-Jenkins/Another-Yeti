@@ -9,7 +9,8 @@ html {
 body {
   width:100%;
   min-height: 100%;
-  background-color: #3668EC;
+  background-image url
+  /*background-color: #3668EC;*/
 }
 
 html, body {
@@ -17,12 +18,29 @@ html, body {
   padding: 0px;
 }
 
+h1 {
+  padding-top: 2%;
+  text-align: center;
+  float: center;
+}
+
+p { 
+font-family: 'Nunito'; 
+ }
+
+ li {
+  font-family: 'Nunito';
+ }
 
 .page-content h2 {
-    text-align: center;
+     text-align: center;
+     font-family: 'Nunito';
 }
+
 #cta {
   text-align: center;
+  font-family: 'Nunito';
+
 }
 #page {
     background-color: #DFDFDF;
@@ -70,8 +88,8 @@ html, body {
   margin-top: 1%;
 }
 .footer {
-  padding-top: 100px;
-  margin-left: 330px;
+  display: block;
+  margin-left: 22%;
   bottom: 0;
 }
 @media screen and (max-width: 1531px){
@@ -99,6 +117,25 @@ html, body {
     body {
       background-color: #DFDFDF;
     }
+
+    h1 {
+  padding-top: 2%;
+  text-align: center;
+  float: center;
+}
+
+    p { 
+font-family: 'Nunito'; 
+ }
+
+    li {
+  font-family: 'Nunito';
+ }
+
+.page-content h2 {
+     text-align: center;
+     font-family: 'Nunito';
+}
     .page-content {
         background-color: #DFDFDF;
     }
@@ -107,10 +144,7 @@ html, body {
         font-size: 30px;
         
     }
-    .carousel img {
-            height:100% !important;
-            width: 100% !important;
-      }
+    
     #widget {
       display: inline-block;
       vertical-align: top;
@@ -143,31 +177,63 @@ html, body {
 
 @media screen and (max-width: 414px){
     
+  
+
+  p {
+    max-width: 390px;
+    text-align: center; 
+    float: center;
+    font-family: 'Nunito'; 
+ }
+
+ li {
+    font-family: 'Nunito';
+ }
+
+.page-content h2 {
+     text-align: center;
+     font-family: 'Nunito';
+}
+
   .page-content {
     background-color: #DFDFDF;
 }
   #page {
     max-width: 100%;
     font-size: 20px;
+    float: right;
+    clear:both;
 }
-  .carousel img {
-    height:100% !important;
-    width: 100% !important;
-  }
+
+  #page h1 {
+    text-align: center;
+    float: center;
+    padding-top: 2%; }
+
+    #content  p {
+    max-width: 390px;
+    text-align: center; 
+    float: center;
+    font-family: 'Nunito'; 
+ }
+  
   #widget {
     max-width: 100%;
     margin-top: 5%;
     overflow:
   }
   #features {
+     max-width: 100%;
+    font-size: 20px;
     float: right;
     clear:both;
+}
     
   
   }
   .download {
     width: 100%;
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
    
   }
