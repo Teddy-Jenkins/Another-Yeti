@@ -14,7 +14,7 @@ html {
 /*--- END NAVBAR STYLING ---*/
 
 body {
-	background: url("../images/background1.jpg") no-repeat center center fixed; 
+	background: url("../images/background1.jpeg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -38,6 +38,7 @@ h1 {
 #metro {
 	float: left;
 	width: 50%;
+	
 
 	
 }
@@ -45,11 +46,11 @@ h1 {
 	margin: auto;
 }
 #industrial {
-	float: left;
+	float: right;
 	width: 50%;
-;
 	
 }
+
 p {
 	font-size: 20px;
 	text-align: left;
@@ -75,10 +76,38 @@ vertical-align: middle;
 	position:fixed;
 	left:0px;
 	bottom:0px;
-	height:30px;
+	height:29px;
 	width:100%;
 	background:#999;
  }
+
+ #copyright {
+		margin: auto;
+		text-align: center;
+	}
+
+ @media screen and (max-width: 1366px) {
+ 	.conteiner {
+ 		max-width: 100%;
+ 	}
+
+ 	
+ 	#metro {
+ 		float: left;
+ 		margin-left: -8%;
+ 	}
+
+ 	#industrial {
+ 		float: right;
+ 		margin-right: -3%;
+ 	}
+
+ 	#copyright {
+		margin: auto;
+		text-align: center;
+	}
+
+ 	 }
 
  @media screen and (max-width: 1025px){ 
 	h2 {
@@ -88,7 +117,8 @@ vertical-align: middle;
 	p {
 		font-size: 22px;
 		width: 100%;
-		text-align: left;	
+		text-align: left;
+		padding-left: 7%;	
 	}
 	#logo {
 		width: 40%;
@@ -101,6 +131,27 @@ vertical-align: middle;
 	#button {
 		text-align: center;
 	}
+
+
+	#images2 {
+		width: 430px;
+		height: 316px; 
+		padding-right: -5%;
+	}
+
+
+	#images {
+		width: 540px;
+		height: 316px;
+		padding-left: 15%; 
+
+	}
+	#copyright {
+		margin: auto;
+		text-align: center;
+	}
+
+	
 }
 
 @media screen and (max-width: 414px){
@@ -110,9 +161,26 @@ vertical-align: middle;
 		max-width: 95%;
 		font-size: 20px;
 		text-align: left;
+		padding-left: 13%;
 	}
+
+	#images2 {
+		width: 400px;
+		height: 316px; 
+		padding-right: -9%;
+	}
+
+	#images {
+		width: 530px;
+		height: 316px;
+		padding-left: 15%; 
+	}
+
+
+
 	#copyright {
 		margin: auto;
 		text-align: center;
 	}
 }
+
