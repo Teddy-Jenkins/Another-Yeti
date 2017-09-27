@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 
-
+* {
+  border: 3px;
+  border-color: red;
+}
 
 html {
   width:100%;
@@ -63,7 +66,7 @@ font-family: 'Nunito';
 #content {
     text-align: left;
     margin: auto;
-    max-width: 70%;
+    max-width: 60%;
     padding-top: 10px;
 }
 #indexpage {
@@ -82,19 +85,14 @@ font-family: 'Nunito';
   float: left;
   width: 560;
   height: 327;
-  padding-left: 16%;
+  padding-left: 40px;
 }
 #features {
   float: left;
-  width:  100%;
+  width: 35%;
   height: 100%;
-  margin-top: 2%;
- 
+  margin-top: 1%;
 }
-#features ul {
-  padding-left: 25%;
-}
-
 .footer {
   display: block;
   margin-top: 10%;
@@ -103,16 +101,50 @@ font-family: 'Nunito';
 }
 
 
-@media screen and (max-width: 1025px) {
 
-  html {
+
+
+@media screen and (max-width: 1531px){
+  #features {
+    clear:both;
+    padding-left: 25%;
+    width: 75%;
+    
+  }
+  #widget {
+    clear: both;
+    width: 100%;
+  }
+  iframe {
+    margin: auto;
+    right: 0;
+    left: 0;
+    display: block;
+  }
+}
+@media screen and (max-width: 1025px){
+    html {
       background-color: #DFDFDF;
     }
     body {
       background-color: #DFDFDF;
     }
 
-    .page-content h2 {
+    h1 {
+  padding-top: 2%;
+  text-align: center;
+  float: center;
+}
+
+    p { 
+font-family: 'Nunito'; 
+ }
+
+    li {
+  font-family: 'Nunito';
+ }
+
+.page-content h2 {
      text-align: center;
      font-family: 'Nunito';
 }
@@ -121,7 +153,7 @@ font-family: 'Nunito';
     }
     #page {
         max-width: 90%;
-        font-size: 22px;
+        font-size: 30px;
         
     }
     
@@ -130,18 +162,18 @@ font-family: 'Nunito';
       vertical-align: top;
       text-align: left;
       position: relative;
-      padding-left: 3%;
       }
-
     #features {
-      margin-left: -25%;
-      
-      
-        }
+      float: left;
+      clear:both;
+      margin-left: 10%;
+      margin-top: 10%;
+      }
     .download {
         width: 100%;
-        max-width: 95%;
-        margin-left: 16%;
+        max-width: 80%;
+        margin: 0 auto;
+       
       }
     .footer {
       margin: auto;
@@ -152,97 +184,69 @@ font-family: 'Nunito';
       margin: auto;
       max-width: 70%;
     }
+    
 }
 
-
-@media screen and (max-width: 414px) {
-
-  html {
-      background-color: #DFDFDF;
-    }
-    body {
-      background-color: #DFDFDF;
-    }
-
+@media screen and (max-width: 414px){
+    
   
-  .page-content h2 {
-     float: right;
+
+  p {
+    max-width: 390px;
+    text-align: center; 
+    float: center;
+    font-family: 'Nunito'; 
+ }
+
+ li {
+    font-family: 'Nunito';
+ }
+
+.page-content h2 {
+     text-align: center;
      font-family: 'Nunito';
 }
 
   .page-content {
     background-color: #DFDFDF;
 }
-
   #page {
     max-width: 100%;
     font-size: 20px;
     float: right;
     clear:both;
 }
+
   #page h1 {
     text-align: center;
     float: center;
     padding-top: 2%; }
 
-  #page img {
-    width: 413px;
-    height: 230px;
-    padding-left: 2%;
-    padding-right: 1%;
-  }
-
-  
-  #trailer iframe {
-    width: 400px;
-    height: 326px;
-    margin-left: 2%;
-  }
-
-  
-
     #content  p {
-    max-width: 414px;
-    width: 400px
-    font-size: 22px;
-    float: right;
-    padding-left: %;
-    
-
+    max-width: 390px;
+    text-align: center; 
+    float: center;
+    font-family: 'Nunito'; 
  }
   
-  .download {
-    width: 100%;    
-    margin: 0;   
-  }
-
-  .download iframe {
-    width: 400px;
-    height: 326px;
-    margin: auto;
-  }
-
   #widget {
-    width: : 100%;
+    max-width: 100%;
     margin-top: 5%;
     overflow:
   }
-
   #features {
-    width: 150%;
-    font-size: 22px;
+     max-width: 100%;
+    font-size: 20px;
     float: right;
-    padding-left: 40%;
-    }
+    clear:both;
+}
     
   
   }
-  
-  #cta {
-    text-align: center;
+  .download {
+    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+   
   }
-
-
-}
-
-
+    }
