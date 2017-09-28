@@ -1,12 +1,20 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);
 
-
-.navbar {
-	font-size: 20px;
+html{
+    width: auto;
+    font-family: 'Nunito', sans-serif;
+    height: auto;
+	min-width: 100%;
+}
+.navbar.navbar-toggleable-md.navbar-light.bg-faded {
+    position: relative;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    padding-bottom: 50px;
 }
     
 body {
     height: 100%;
+    font-family: 'Nunito'
 }
 
 
@@ -57,6 +65,7 @@ body {
 }
 p {
     font-size: 20px;
+    font-family: 'Nunito';
 }
 
 
