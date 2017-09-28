@@ -74,34 +74,33 @@ p {
     }
     #profiletext {
         margin: auto;
-        margin-top: 0.7%;
-        margin-left: 40%;
-        font-size: 26px;
+        font-size: 20px;
+        float: left;
+        padding-left: 1%;
+    }
+}
+@media screen and (max-width: 699px){
+    html, body{
+        max-height: 100%;
+        width: 100%;
+    }
+    #profile {
+        margin: auto;
+        float: none;
+        
+    }
+    #profiletext {
+        margin: auto !important;
+        float: none !important;
+        max-width: 90%;
+    }
+    #company {
+        max-width: 90%;
     }
 }
 
 @media screen and (max-width: 415px){ 
-	.nav > li{
-        width: 100%;
-        margin: auto;
-    }
-    #company {
-        margin: auto;
-        max-width: 90%;
-        text-align: left;
-        padding-bottom: 50%;
-    }
-    #company > h1 {
-        text-align: center;
-    }
-    #profile {
-        width: 100%;
-    }
-    #profiletext {
-        margin: auto;
-        margin-top: 90%;
-
-    }
+	
 
 
 }

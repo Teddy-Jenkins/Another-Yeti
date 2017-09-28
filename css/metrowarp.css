@@ -3,17 +3,15 @@
 
 
 html {
-  width:100%;
+  position: relative;
   height: 100%;
-  overflow: auto;
+  min-height: 100% !important;
   background-color: #3668EC;
 }
 
-body {
-  width:100%;
-  min-height: 100%;
-  background: url('images/bg.jpeg') ;
-    /*background-color: #3668EC;*/
+#container {
+  height: 100%;
+  width: 100%;
 }
 
 html, body {
@@ -50,15 +48,15 @@ font-family: 'Nunito';
     max-width: 60%;
     margin: auto;
     height: auto;
-    min-height: 100%;
     position: absolute;
     left: 0;
     right: 0;
-    
 }
 #trailer {
+  display: block;
   text-align: center;
   padding-top: 25px;
+  max-width: 100%;
 }
 #content {
     text-align: left;
@@ -66,42 +64,80 @@ font-family: 'Nunito';
     max-width: 70%;
     padding-top: 10px;
 }
-#indexpage {
-    vertical-align: middle;
-    margin-top: 50px;
+iframe {
+    max-width: 100%;
 }
 .download {
-  padding-bottom: 20px;
   padding-top: 20px;
   width: 100%;
   margin: auto;
-  height: auto;
+  height: 100%;
   position: relative;
 }
+
 #widget {
   float: left;
   width: 560;
   height: 327;
-  padding-left: 16%;
+  padding-left: 40px;
 }
 #features {
   float: left;
-  width:  100%;
+  width: 35%;
   height: 100%;
   margin-top: 2%;
- 
 }
 #features ul {
   padding-left: 25%;
 }
 
-.footer {
-  display: block;
-  margin-top: 10%;
-  margin-left: 22%;
-  bottom: 0;
-}
 
+ #copyright {
+  margin: auto;
+  text-align: center;
+  width: 70%;
+  padding-top: 7%;
+  margin-bottom: -5%;
+}
+#copyright {
+  padding-top: 3%;
+  padding-bottom: -20px;
+}
+@media screen and (min-width: 1734px){
+  #copyright {
+    float: left;
+    text-align: center;
+    width: 100%;
+    background-color: #DFDFDF;
+  }
+  #logo1 {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 1538px){
+  
+  #widget {
+    display: block;
+    float: none !important;
+    margin: auto !important;
+    padding: 0;
+    }
+  iframe {
+    display: block;
+    margin: auto;
+  }
+  #features {
+    display: block;
+    clear: both;
+    float: none !important;
+    margin: auto;
+    width: 50%;
+    padding-top: 3%;
+    }
+  #features ul {
+    padding-left: 0;
+  }
+}
 
 @media screen and (max-width: 1025px) {
 
@@ -120,28 +156,22 @@ font-family: 'Nunito';
         background-color: #DFDFDF;
     }
     #page {
-        max-width: 90%;
+        max-width: 100%;
         font-size: 22px;
-        
     }
-    
     #widget {
-      display: inline-block;
-      vertical-align: top;
-      text-align: left;
-      position: relative;
-      padding-left: 3%;
+      margin: auto;
+      float: none;
       }
 
     #features {
-      margin-left: -25%;
-      
-      
-        }
+      margin: auto;
+      float: none;
+      width: 85%;
+      }
     .download {
         width: 100%;
         max-width: 95%;
-        margin-left: 16%;
       }
     .footer {
       margin: auto;
@@ -150,99 +180,36 @@ font-family: 'Nunito';
     }
     #copyright {
       margin: auto;
-      max-width: 70%;
+      max-width: 95%;
+      width: 90%;
     }
+    
 }
 
 
 @media screen and (max-width: 414px) {
-
-  html {
-      background-color: #DFDFDF;
-    }
-    body {
-      background-color: #DFDFDF;
-    }
-
-  
-  .page-content h2 {
-     float: right;
-     font-family: 'Nunito';
-}
-
-  .page-content {
-    background-color: #DFDFDF;
-}
-
   #page {
+    width: 100%;
     max-width: 100%;
-    font-size: 20px;
-    float: right;
-    clear:both;
-}
-  #page h1 {
-    text-align: center;
-    float: center;
-    padding-top: 2%; }
-
-  #page img {
-    width: 413px;
-    height: 230px;
-    padding-left: 2%;
-    padding-right: 1%;
+    padding: 0;
+    margin: 0;
   }
-
-  
-  #trailer iframe {
-    width: 400px;
-    height: 326px;
-    margin-left: 2%;
+  p {
+    max-width: 95%;
   }
-
-  
-
-    #content  p {
-    max-width: 414px;
-    width: 400px
-    font-size: 22px;
-    float: right;
-    padding-left: %;
-    
-
- }
-  
-  .download {
-    width: 100%;    
-    margin: 0;   
-  }
-
-  .download iframe {
-    width: 400px;
-    height: 326px;
-    margin: auto;
-  }
-
-  #widget {
-    width: : 100%;
-    margin-top: 5%;
-    overflow:
-  }
-
   #features {
-    width: 150%;
-    font-size: 22px;
-    float: right;
-    padding-left: 40%;
-    }
+    width: 90%;
+  }
+  #trailer {
+  width: 100%;
+}
+  iframe {
+   width: 100%;
+ }
     
-  
+  #copyright {
+    margin-top: 5%;
   }
-  
-  #cta {
-    text-align: center;
-  }
-
-
 }
 
 
