@@ -3,18 +3,13 @@
 html body{
 	height: auto;
 	min-width: 100%;
-	background: url("../images/background1.jpeg") no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 	width: auto;
 	font-family: 'Nunito';
+	background-color: white;
 }
 body {
 	position: relative;
 	margin: 0;
-	padding-bottom: 6rem;
 	min-height: 100%;
 }
 /*--- NAVBAR STYLING ---*/
@@ -80,33 +75,28 @@ h2 {
  }
  #mc_embed_signup {
 	 padding-top: 25px;
+	 padding-bottom: 3%;
  }
  .footer {
-	position: absolute;
 	right: 0;
 	bottom: 0;
 	left: 0;
 	padding: 1rem;
 	background-color: #efefef;
-	text-align: center;
+	margin: auto;
  }
  .footer > p {
 	text-align: center;
 	max-width: 100%;
-	 
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 0.5%;
+	vertical-align: middle;
  }
-
- 
-
- @media screen and (max-width: 1366px) {
- 	
- 	#copyright {
-		margin: auto;
-		text-align: center;
-	}
-	
-
-}
+ #social {
+	 float: left;
+	 margin-left: 1%;
+ }
 
  @media screen and (max-width: 1025px){ 
 	#industrial {
@@ -123,6 +113,7 @@ h2 {
 	#mc_embed_signup {
 		max-width: 80%;
 		margin: auto;
+		
 	}
 
 	
@@ -133,12 +124,12 @@ h2 {
 	#industrial {
 		float: none;
 		margin: auto;
-		width: 95%;
+		width: 100%;
 	}
 	#metro {
 		float: none;
 		margin: auto;
-		width: 95%;
+		width: 100%;
 	}
 	p {
 		max-width: 95%;
@@ -148,5 +139,16 @@ h2 {
 		max-width: 95%;
 		margin: auto;
 	}
+	#social {
+		float: none;
+		text-align: center;
+	}
+	#socialmedia {
+		text-align: center;
+	}
+	.footer > p {
+		padding-left: 10%;
+		padding-right: 10%;
+	 }
 }
 

@@ -13,8 +13,11 @@ html{
 }
     
 body {
-    height: 100%;
-    font-family: 'Nunito'
+    width: auto;
+    font-family: 'Nunito', sans-serif;
+    height: auto;
+	min-width: 100%;
+    
 }
 
 
@@ -67,6 +70,26 @@ p {
     font-size: 20px;
     font-family: 'Nunito';
 }
+.footer {
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #efefef;
+	margin: auto;
+ }
+ .footer > p {
+	text-align: center;
+	max-width: 100%;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 0.5%;
+	vertical-align: middle;
+ }
+ #social {
+	 float: left;
+	 margin-left: 1%;
+ }
 
 
 @media screen and (max-width: 1025px){ 
@@ -93,18 +116,45 @@ p {
         max-height: 100%;
         width: 100%;
     }
+    .team {
+        height: 100%;
+    }
+    .teammember {
+        height: 100%;
+    }
     #profile {
         margin: auto;
         float: none;
+        padding: 0 0 0 0;
+        max-width: 100%;
         
     }
     #profiletext {
-        margin: auto !important;
-        float: none !important;
-        max-width: 90%;
+        float: none;
+        max-width: 100%;
+        padding-top: 0;
+        height: 10%;
+        padding-bottom: 2%;
     }
     #company {
-        max-width: 90%;
+        max-width: 95%;
+    }
+    #company > p {
+        text-align: left;
+    }
+    #social {
+		float: none;
+		text-align: center;
+	}
+	#socialmedia {
+		text-align: center;
+	}
+	.footer > p {
+		padding-left: 10%;
+		padding-right: 10%;
+     }
+    #icons {
+        text-align: center;
     }
 }
 

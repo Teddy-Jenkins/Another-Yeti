@@ -1,18 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
 
-
-
-.navbar.navbar-toggleable-md.navbar-light.bg-faded {
+html { 
+    width: 100%;
+}
+.navbar {
+    position: relative;
     font-size: 20px;
 }
-ul {
-    font-size: 20px;
+
+.background {
+
+    background: url("../images/support_png_copy.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
 }
+
+
 .faq {
-	background-color:  #e6e6e6;
+    
+    width: 100%;
 	text-align: center;
 	margin-top: 20px;
     
 }
+
+
+
+.paragraph-background {
+   
+    background-color:  #e6e6e6;  
+    padding-top: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    margin: auto;
+    max-width: 50%;
+}
+
+
+
 
 #faq-paragraph {
 	text-align: left;
@@ -20,43 +47,89 @@ ul {
     margin-top: 3%;
 	max-width: 50%;
 }
-
-#copyright {
-	margin-top: 20px;
-    bottom: 0;
-    text-align: center;
+p {
+    font-size: 20px;
+    font-family: 'Nunito'
+    
 }
 
-
 h3 {
+    font-size: 35px;
     font-family: 'Alfa slab One'
+
  }
 
 h4 {
+    padding-top: 2%;
     text-align: center;
+    font-size: 30px;
+    font-family: 'Nunito'
     }
+.footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    margin: auto;
+}
+.footer > p {
+    text-align: center;
+    max-width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 0.5%;
+    vertical-align: middle;
+}
+#social {
+    float: left;
+    margin-left: 1%;
+}
+
 
 @media screen and (max-width: 1025px){ 
+    .background {
+        background: none !important;
+
+    }
 	.faq-paragraph {
         max-width: 100%;
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    .paragraph-background {
+        max-width: 100%;
+        word-wrap: break-word;
     }
     footer {
         max-width: 100%;
         margin: auto;
     }
     p {
-        max-width: 100%;
+        width: 100%;
     }
 
 }
-@media screen and (max-width: 414px){
+@media screen and (max-width: 600px){
     
     #faq-paragraph {
         margin: auto;
         max-width: 90%;
         word-wrap:break-word;
     }
-    
-    
+    #social {
+		float: none;
+		text-align: center;
+	}
+	#socialmedia {
+		text-align: center;
+	}
+	.footer > p {
+		padding-left: 10%;
+		padding-right: 10%;
+     }
+    #icons {
+        text-align: center;
+    }
         
 }
